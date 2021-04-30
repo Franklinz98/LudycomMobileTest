@@ -1,4 +1,4 @@
-package com.frankz.ludycommobiletest
+package com.frankz.ludycommobiletest.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.frankz.ludycommobiletest.R
 import com.frankz.ludycommobiletest.adapters.CountriesViewAdapter
 import com.frankz.ludycommobiletest.model.Country
 

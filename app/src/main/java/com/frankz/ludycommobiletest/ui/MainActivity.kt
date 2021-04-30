@@ -1,12 +1,9 @@
-package com.frankz.ludycommobiletest
+package com.frankz.ludycommobiletest.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.viewpager2.widget.ViewPager2
-import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
-import org.json.JSONArray
+import com.frankz.ludycommobiletest.R
+import com.frankz.ludycommobiletest.viewmodel.AppViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.Theme_LudycomMobileTest)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        viewModel = AppViewModel(application)
+        viewModel =
+            AppViewModel(application)
     }
 
 }

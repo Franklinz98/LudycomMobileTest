@@ -1,4 +1,4 @@
-package com.frankz.ludycommobiletest;
+package com.frankz.ludycommobiletest.viewmodel;
 
 import android.app.Application;
 import android.util.Log;

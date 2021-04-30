@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/countryList"
-        android:name="com.frankz.ludycommobiletest.CountryList"
+        android:name="com.frankz.ludycommobiletest.ui.CountryList"
         android:label="fragment_country_list"
         tools:layout="@layout/fragment_country_list" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/countryDetails"
-        android:name="com.frankz.ludycommobiletest.CountryDetails"
+        android:name="com.frankz.ludycommobiletest.ui.CountryDetails"
         android:label="fragment_country_details"
         tools:layout="@layout/fragment_country_details" >
         <action

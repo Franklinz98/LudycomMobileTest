@@ -1,4 +1,4 @@
-package com.frankz.ludycommobiletest
+package com.frankz.ludycommobiletest.ui
 
 import android.os.Bundle
 import android.text.Editable
@@ -16,7 +16,9 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
+import com.frankz.ludycommobiletest.R
 import com.frankz.ludycommobiletest.adapters.SlidePagerAdapter
+import com.frankz.ludycommobiletest.viewmodel.AppViewModel
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
 
 class CountryList : Fragment() {
