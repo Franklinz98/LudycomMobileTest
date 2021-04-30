@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/countryList">
+
+    <fragment
+        android:id="@+id/countryList"
+        android:name="com.frankz.ludycommobiletest.CountryList"
+        android:label="fragment_country_list"
+        tools:layout="@layout/fragment_country_list" >
+        <action
+            android:id="@+id/action_countryList_to_countryDetails"
+            app:destination="@id/countryDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryDetails"
+        android:name="com.frankz.ludycommobiletest.CountryDetails"
+        android:label="fragment_country_details"
+        tools:layout="@layout/fragment_country_details" >
+        <action
+            android:id="@+id/action_countryDetails_to_countryList"
+            app:destination="@id/countryList" />
+    </fragment>
+</navigation>

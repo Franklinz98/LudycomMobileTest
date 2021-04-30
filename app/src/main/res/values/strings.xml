@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ludycom Mobile Test</string>
+    <string name="buscar">Buscar</string>
+    <string name="continent">Continent</string>
+    <string name="maps_action">Maps Action</string>
+    <string name="favorite_action">Favorite Action</string>
+    <string name="country">Country</string>
+    <string name="capital">Capital</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details_title">Información Detallada</string>
+    <string name="back_action">back_action</string>
+    <string name="region">Region:</string>
+    <string name="population">Population:</string>
+    <string name="capital_1">Capital:</string>
+    <string name="currency">Currency:</string>
+    <string name="language">Language:</string>
+    <string name="border_countries">Border Countries:</string>
+    <string name="flag_view">flag_view</string>
+</resources>
